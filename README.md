@@ -221,3 +221,9 @@ Added notifications via [apprise](https://github.com/caronc/apprise).
 Logo with smaller aspect ratio (for Telegram bot etc.): 👾 - [emojipedia](https://emojipedia.org/alien-monster/)
 
 ![logo-fgc](assets/logo.png)
+
+---
+
+## Credits
+
+This is a fork of [free-games-claimer](https://github.com/vogler/free-games-claimer), created by [vogler](https://github.com/vogler) — all credit for the original goes to him. This fork adapts it with a fix for Amazon's Prime Gaming → Luna rebrand and adds Unraid Community Applications support.
