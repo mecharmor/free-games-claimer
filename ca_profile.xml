@@ -1,1 +1,10 @@
-PENvbW11bml0eUFwcGxpY2F0aW9ucz4KICA8UHJvZmlsZT4KICAgIEZyZWUgR2FtZXMgQ2xhaW1lciBhdXRvbWF0aWNhbGx5IGNsYWltcyBmcmVlIGdhbWVzIG9uIHRoZSBFcGljIEdhbWVzIFN0b3JlLCBBbWF6b24gUHJpbWUgR2FtaW5nIChMdW5hKSwKICAgIEdPRywgU3RlYW0gYW5kIG1vcmUuIFJ1bnMgaGVhZGxlc3MgaW4gRG9ja2VyIHdpdGggUGxheXdyaWdodC4gQ29uZmlndXJlIHlvdXIgc3RvcmUgbG9naW5zIG9uY2UgYW5kIGxldCBpdAogICAgcnVuIG9uIGEgc2NoZWR1bGUgdmlhIHRoZSBVc2VyIFNjcmlwdHMgcGx1Z2luLiBPcHRpb25hbGx5IHNlbmRzIG5vdGlmaWNhdGlvbnMgb24gZWFjaCBjbGFpbSB2aWEgYXBwcmlzZQogICAgKERpc2NvcmQsIFRlbGVncmFtLCBldGMuKS4KICA8L1Byb2ZpbGU+CiAgPEljb24+aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21lY2hhcm1vci9mcmVlLWdhbWVzLWNsYWltZXIvbWFpbi91bnJhaWQtdGVtcGxhdGVzL2ljb25zL2ljb24ucG5nPC9JY29uPgogIDxXZWJQYWdlPmh0dHBzOi8vZ2l0aHViLmNvbS9tZWNoYXJtb3IvZnJlZS1nYW1lcy1jbGFpbWVyPC9XZWJQYWdlPgo8L0NvbW11bml0eUFwcGxpY2F0aW9ucz4K
+<CommunityApplications>
+  <Profile>
+    Free Games Claimer automatically claims free games on the Epic Games Store, Amazon Prime Gaming (Luna),
+    GOG, Steam and more. Runs headless in Docker with Playwright. Configure your store logins once and let it
+    run on a schedule via the User Scripts plugin. Optionally sends notifications on each claim via apprise
+    (Discord, Telegram, etc.).
+  </Profile>
+  <Icon>https://raw.githubusercontent.com/mecharmor/free-games-claimer/main/unraid-templates/icons/icon.png</Icon>
+  <WebPage>https://github.com/mecharmor/free-games-claimer</WebPage>
+</CommunityApplications>
