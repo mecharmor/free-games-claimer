@@ -1,1 +1,182 @@
-PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxDb250YWluZXIgdmVyc2lvbj0iMiI+CiAgPE5hbWU+Y2xld2lzLWZyZWUtZ2FtZXMtY2xhaW1lcjwvTmFtZT4KICA8UmVwb3NpdG9yeT5jb3J5bGV3aXMvZnJlZS1nYW1lcy1jbGFpbWVyOmxhdGVzdDwvUmVwb3NpdG9yeT4KICA8UmVnaXN0cnk+aHR0cHM6Ly9odWIuZG9ja2VyLmNvbS9yL2NvcnlsZXdpcy9mcmVlLWdhbWVzLWNsYWltZXI8L1JlZ2lzdHJ5PgogIDxOZXR3b3JrPmJyaWRnZTwvTmV0d29yaz4KICA8R2l0SHViPmh0dHBzOi8vZ2l0aHViLmNvbS9tZWNoYXJtb3IvZnJlZS1nYW1lcy1jbGFpbWVyPC9HaXRIdWI+CiAgPFByb2plY3Q+aHR0cHM6Ly9naXRodWIuY29tL3ZvZ2xlci9mcmVlLWdhbWVzLWNsYWltZXI8L1Byb2plY3Q+CiAgPE92ZXJ2aWV3PgogICAgQXV0b21hdGljYWxseSBjbGFpbXMgZnJlZSBnYW1lcyBvbiB0aGUgRXBpYyBHYW1lcyBTdG9yZSwgQW1hem9uIFByaW1lIEdhbWluZyAoTHVuYSksIEdPRywgU3RlYW0gYW5kIG1vcmUuIFJ1bnMgaGVhZGxlc3MgaW4gRG9ja2VyIHdpdGggUGxheXdyaWdodCDigJQgbm8gbWFudWFsIGNsaWNraW5nLgoKICAgIFRoaXMgY29udGFpbmVyIHN0YXJ0cywgcnVucyB0aGUgY2xhaW1lcnMsIGFuZCB0aGVuIHN0b3BzIG9uIGl0cyBvd24uIFRvIGNsYWltIG9uIGEgc2NoZWR1bGUsIHVzZSB0aGUgIlVzZXIgU2NyaXB0cyIgVW5yYWlkIHBsdWdpbiAoYXZhaWxhYmxlIGluIENvbW11bml0eSBBcHBsaWNhdGlvbnMpOiBjcmVhdGUgYSBuZXcgc2NyaXB0LCBzZXQgaXQgdG8gcnVuIGRhaWx5LCBhbmQgdXNlIHRoZSBmb2xsb3dpbmcgYXMgdGhlIHNjcmlwdCBjb250ZW50OgoKICAgICMhL2Jpbi9iYXNoCiAgICBkb2NrZXIgc3RhcnQgY2xld2lzLWZyZWUtZ2FtZXMtY2xhaW1lcgoKICAgIEZyZWUgZ2FtZXMgcm90YXRlIHdlZWtseSwgc28gZGFpbHkgaXMgbW9yZSB0aGFuIGZyZXF1ZW50IGVub3VnaCB0byBuZXZlciBtaXNzIG9uZS4KCiAgICBGSVJTVCBSVU4gLyBMT0dJTjoKICAgIExvZ2lucyBwZXJzaXN0IGluIC9mZ2MvZGF0YSAodGhlIEFwcGRhdGEgcGF0aCBiZWxvdykuIElmIGEgc2l0ZSBsb2dzIHlvdSBvdXQsIG9wZW4gdGhlIGNvbnRhaW5lcidzIG5vVk5DIHdlYiBVSSAocG9ydCA2MDgwKSBhbmQgbG9nIGluIG1hbnVhbGx5IGluIHRoZSBicm93c2VyLCBvciBydW4gb25jZSB3aXRoIFNIT1c9MSB0byB3YXRjaCB0aGUgbG9naW4gZmxvdy4KCiAgICBFcGljIEdhbWVzIHN1cHBvcnRzIDJGQSB2aWEgVE9UUDogZW5hYmxlIGFuIGF1dGhlbnRpY2F0b3IgYXBwIGluIHlvdXIgRXBpYyBhY2NvdW50IHNldHRpbmdzIGFuZCBwYXN0ZSB0aGUgVE9UUCBzZWNyZXQgaW50byB0aGUgRUdfT1RQS0VZIGZpZWxkIGJlbG93LgogIDwvT3ZlcnZpZXc+CiAgPENhdGVnb3J5PlByb2R1Y3Rpdml0eTogVG9vbHM6PC9DYXRlZ29yeT4KICA8V2ViVUk+aHR0cDovL1tJUF06W1BPUlQ6NjA4MF0vPC9XZWJVST4KICA8VGVtcGxhdGVVUkw+aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21lY2hhcm1vci9mcmVlLWdhbWVzLWNsYWltZXIvbWFpbi91bnJhaWQtdGVtcGxhdGVzL2NsZXdpcy1mcmVlLWdhbWVzLWNsYWltZXIueG1sPC9UZW1wbGF0ZVVSTD4KICA8SWNvbj5odHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbWVjaGFybW9yL2ZyZWUtZ2FtZXMtY2xhaW1lci9tYWluL3VucmFpZC10ZW1wbGF0ZXMvaWNvbnMvaWNvbi5wbmc8L0ljb24+CiAgPEV4dHJhUGFyYW1zLz4KICA8UG9zdEFyZ3MvPgogIDxDUFVzZXQvPgogIDxEYXRlSW5zdGFsbGVkLz4KICA8RG9uYXRlVGV4dC8+CiAgPERvbmF0ZUxpbmsvPgogIDxSZXF1aXJlcy8+CgogIDwhLS0gU2hhcmVkIGVtYWlsIGZhbGxiYWNrICh1c2VkIHdoZW4gYSBzdG9yZS1zcGVjaWZpYyBlbWFpbCBpcyBlbXB0eSkgLS0+CiAgPENvbmZpZwogICAgTmFtZT0iRW1haWwiCiAgICBUYXJnZXQ9IkVNQUlMIgogICAgRGVmYXVsdD0iIgogICAgTW9kZT0iIgogICAgRGVzY3JpcHRpb249Ik9wdGlvbmFsLiBTaGFyZWQgZW1haWwgdXNlZCBhcyBhIGZhbGxiYWNrIGZvciBhbnkgc3RvcmUgYmVsb3cgdGhhdCBoYXMgbm8gc3RvcmUtc3BlY2lmaWMgZW1haWwgc2V0LiIKICAgIFR5cGU9IlZhcmlhYmxlIgogICAgRGlzcGxheT0iYWx3YXlzIgogICAgUmVxdWlyZWQ9ImZhbHNlIgogICAgTWFzaz0iZmFsc2UiPgogIDwvQ29uZmlnPgoKICA8IS0tIEVwaWMgR2FtZXMgLS0+CiAgPENvbmZpZwogICAgTmFtZT0iRXBpYyBFbWFpbCIKICAgIFRhcmdldD0iRUdfRU1BSUwiCiAgICBEZWZhdWx0PSIiCiAgICBNb2RlPSIiCiAgICBEZXNjcmlwdGlvbj0iRXBpYyBHYW1lcyBTdG9yZSBsb2dpbiBlbWFpbC4gTGVhdmUgZW1wdHkgdG8gc2tpcCBFcGljIChFcGljIGlzIGFsc28gc2tpcHBlZCBlbnRpcmVseSBpZiBubyBlbWFpbCBpcyBzZXQpLiIKICAgIFR5cGU9IlZhcmlhYmxlIgogICAgRGlzcGxheT0iYWx3YXlzIgogICAgUmVxdWlyZWQ9ImZhbHNlIgogICAgTWFzaz0iZmFsc2UiPgogIDwvQ29uZmlnPgogIDxDb25maWcKICAgIE5hbWU9IkVwaWMgUGFzc3dvcmQiCiAgICBUYXJnZXQ9IkVHX1BBU1NXT1JEIgogICAgRGVmYXVsdD0iIgogICAgTW9kZT0iIgogICAgRGVzY3JpcHRpb249IkVwaWMgR2FtZXMgU3RvcmUgcGFzc3dvcmQuIgogICAgVHlwZT0iVmFyaWFibGUiCiAgICBEaXNwbGF5PSJhbHdheXMiCiAgICBSZXF1aXJlZD0iZmFsc2UiCiAgICBNYXNrPSJ0cnVlIj4KICA8L0NvbmZpZz4KICA8Q29uZmlnCiAgICBOYW1lPSJFcGljIFRPVFAgU2VjcmV0IgogICAgVGFyZ2V0PSJFR19PVFBLRVkiCiAgICBEZWZhdWx0PSIiCiAgICBNb2RlPSIiCiAgICBEZXNjcmlwdGlvbj0iT3B0aW9uYWwuIFRPVFAgc2VjcmV0IGZvciBFcGljIDJGQS4gSW4geW91ciBFcGljIGFjY291bnQgc2V0dGluZ3MsIGNob29zZSAnRW5hYmxlIEF1dGhlbnRpY2F0b3IgQXBwJyBhbmQgcGFzdGUgdGhlIHNlY3JldCBzaG93biB0aGVyZSAodGhlIFFSIGNvZGUgY29udGFpbnMgaXQpLiBUaGUgY2xhaW1lciB0aGVuIGdlbmVyYXRlcyAyRkEgY29kZXMgYXV0b21hdGljYWxseS4iCiAgICBUeXBlPSJWYXJpYWJsZSIKICAgIERpc3BsYXk9ImFsd2F5cyIKICAgIFJlcXVpcmVkPSJmYWxzZSIKICAgIE1hc2s9InRydWUiPgogIDwvQ29uZmlnPgoKICA8IS0tIFByaW1lIEdhbWluZyAoQW1hem9uIEx1bmEpIC0tPgogIDxDb25maWcKICAgIE5hbWU9IlByaW1lIEdhbWluZyBFbWFpbCIKICAgIFRhcmdldD0iUEdfRU1BSUwiCiAgICBEZWZhdWx0PSIiCiAgICBNb2RlPSIiCiAgICBEZXNjcmlwdGlvbj0iQW1hem9uIGFjY291bnQgZW1haWwgZm9yIFByaW1lIEdhbWluZyAoTHVuYSkgY2xhaW1zLiIKICAgIFR5cGU9IlZhcmlhYmxlIgogICAgRGlzcGxheT0iYWx3YXlzIgogICAgUmVxdWlyZWQ9ImZhbHNlIgogICAgTWFzaz0iZmFsc2UiPgogIDwvQ29uZmlnPgogIDxDb25maWcKICAgIE5hbWU9IlByaW1lIEdhbWluZyBQYXNzd29yZCIKICAgIFRhcmdldD0iUEdfUEFTU1dPUkQiCiAgICBEZWZhdWx0PSIiCiAgICBNb2RlPSIiCiAgICBEZXNjcmlwdGlvbj0iQW1hem9uIGFjY291bnQgcGFzc3dvcmQgZm9yIFByaW1lIEdhbWluZyAoTHVuYSkgY2xhaW1zLiIKICAgIFR5cGU9IlZhcmlhYmxlIgogICAgRGlzcGxheT0iYWx3YXlzIgogICAgUmVxdWlyZWQ9ImZhbHNlIgogICAgTWFzaz0idHJ1ZSI+CiAgPC9Db25maWc+CiAgPENvbmZpZwogICAgTmFtZT0iUHJpbWUgR2FtaW5nIFRPVFAgU2VjcmV0IgogICAgVGFyZ2V0PSJQR19PVFBLRVkiCiAgICBEZWZhdWx0PSIiCiAgICBNb2RlPSIiCiAgICBEZXNjcmlwdGlvbj0iT3B0aW9uYWwuIFRPVFAgc2VjcmV0IGZvciBBbWF6b24gMkZBLCBmcm9tIHlvdXIgQW1hem9uIGFjY291bnQncyBhdXRoZW50aWNhdG9yIGFwcCBzZXR1cC4iCiAgICBUeXBlPSJWYXJpYWJsZSIKICAgIERpc3BsYXk9ImFsd2F5cyIKICAgIFJlcXVpcmVkPSJmYWxzZSIKICAgIE1hc2s9InRydWUiPgogIDwvQ29uZmlnPgoKICA8IS0tIEdPRyAtLT4KICA8Q29uZmlnCiAgICBOYW1lPSJHT0cgRW1haWwiCiAgICBUYXJnZXQ9IkdPR19FTUFJTCIKICAgIERlZmF1bHQ9IiIKICAgIE1vZGU9IiIKICAgIERlc2NyaXB0aW9uPSJHT0cuY29tIGxvZ2luIGVtYWlsLiIKICAgIFR5cGU9IlZhcmlhYmxlIgogICAgRGlzcGxheT0iYWx3YXlzIgogICAgUmVxdWlyZWQ9ImZhbHNlIgogICAgTWFzaz0iZmFsc2UiPgogIDwvQ29uZmlnPgogIDxDb25maWcKICAgIE5hbWU9IkdPRyBQYXNzd29yZCIKICAgIFRhcmdldD0iR09HX1BBU1NXT1JEIgogICAgRGVmYXVsdD0iIgogICAgTW9kZT0iIgogICAgRGVzY3JpcHRpb249IkdPRy5jb20gcGFzc3dvcmQuIgogICAgVHlwZT0iVmFyaWFibGUiCiAgICBEaXNwbGF5PSJhbHdheXMiCiAgICBSZXF1aXJlZD0iZmFsc2UiCiAgICBNYXNrPSJ0cnVlIj4KICA8L0NvbmZpZz4KCiAgPCEtLSBOb3RpZmljYXRpb25zIChvcHRpb25hbCwgYXBwcmlzZSBmb3JtYXQpIC0tPgogIDxDb25maWcKICAgIE5hbWU9Ik5vdGlmeSBVUkwiCiAgICBUYXJnZXQ9Ik5PVElGWSIKICAgIERlZmF1bHQ9IiIKICAgIE1vZGU9IiIKICAgIERlc2NyaXB0aW9uPSJPcHRpb25hbC4gQXBwcmlzZSBub3RpZmljYXRpb24gVVJMIGZvciBjbGFpbSByZXN1bHRzLCBlLmcuIGRpc2NvcmQ6Ly93ZWJob29rX2lkL3dlYmhvb2tfdG9rZW4gZm9yIERpc2NvcmQuIFNlZSBodHRwczovL2dpdGh1Yi5jb20vY2Fyb25jL2FwcHJpc2UgZm9yIGFsbCBzdXBwb3J0ZWQgc2VydmljZXMuIgogICAgVHlwZT0iVmFyaWFibGUiCiAgICBEaXNwbGF5PSJhbHdheXMiCiAgICBSZXF1aXJlZD0iZmFsc2UiCiAgICBNYXNrPSJmYWxzZSI+CiAgPC9Db25maWc+CgogIDwhLS0gRGF0YSBwZXJzaXN0ZW5jZSAoYnJvd3NlciBzZXNzaW9ucywgc2NyZWVuc2hvdHMsIGNsYWltIERCKSAtLT4KICA8Q29uZmlnCiAgICBOYW1lPSJBcHBkYXRhIgogICAgVGFyZ2V0PSIvZmdjL2RhdGEiCiAgICBEZWZhdWx0PSIvbW50L3VzZXIvYXBwZGF0YS9jbGV3aXMtZnJlZS1nYW1lcy1jbGFpbWVyIgogICAgTW9kZT0icnciCiAgICBEZXNjcmlwdGlvbj0iUGVyc2lzdGVudCBzdG9yYWdlIGZvciBicm93c2VyIHNlc3Npb25zLCBzY3JlZW5zaG90cyBhbmQgY2xhaW0gaGlzdG9yeS4gS2VlcCB0aGlzIG1hcHBlZCBvciB5b3Ugd2lsbCBoYXZlIHRvIGxvZyBpbiBhZ2FpbiBvbiBldmVyeSBydW4uIgogICAgVHlwZT0iUGF0aCIKICAgIERpc3BsYXk9ImFsd2F5cyIKICAgIFJlcXVpcmVkPSJ0cnVlIgogICAgTWFzaz0iZmFsc2UiPgogIDwvQ29uZmlnPgoKICA8IS0tIG5vVk5DIHdlYiBVSSBmb3IgbWFudWFsIGxvZ2lucyAtLT4KICA8Q29uZmlnCiAgICBOYW1lPSJub1ZOQyBQb3J0IgogICAgVGFyZ2V0PSI2MDgwIgogICAgRGVmYXVsdD0iNjA4MCIKICAgIE1vZGU9InRjcCIKICAgIERlc2NyaXB0aW9uPSJub1ZOQyBicm93c2VyLWJhc2VkIFZOQyBjbGllbnQg4oCUIG9wZW4gdGhlIGNvbnRhaW5lcidzIFdlYlVJIHRvIGxvZyBpbiBtYW51YWxseSB3aGVuIGEgc2Vzc2lvbiBleHBpcmVzLiIKICAgIFR5cGU9IlBvcnQiCiAgICBEaXNwbGF5PSJhbHdheXMiCiAgICBSZXF1aXJlZD0iZmFsc2UiCiAgICBNYXNrPSJmYWxzZSI+CiAgPC9Db25maWc+Cgo8L0NvbnRhaW5lcj4K
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>clewis-free-games-claimer</Name>
+  <Repository>corylewis/free-games-claimer:latest</Repository>
+  <Registry>https://hub.docker.com/r/corylewis/free-games-claimer</Registry>
+  <Network>bridge</Network>
+  <GitHub>https://github.com/mecharmor/free-games-claimer</GitHub>
+  <Project>https://github.com/vogler/free-games-claimer</Project>
+  <Overview>
+    Automatically claims free games on the Epic Games Store, Amazon Prime Gaming (Luna), GOG, Steam and more. Runs headless in Docker with Playwright — no manual clicking.
+
+    This container starts, runs the claimers, and then stops on its own. To claim on a schedule, use the "User Scripts" Unraid plugin (available in Community Applications): create a new script, set it to run daily, and use the following as the script content:
+
+    #!/bin/bash
+    docker start clewis-free-games-claimer
+
+    Free games rotate weekly, so daily is more than frequent enough to never miss one.
+
+    FIRST RUN / LOGIN:
+    Logins persist in /fgc/data (the Appdata path below). If a site logs you out, open the container's noVNC web UI (port 6080) and log in manually in the browser, or run once with SHOW=1 to watch the login flow.
+
+    Epic Games supports 2FA via TOTP: enable an authenticator app in your Epic account settings and paste the TOTP secret into the EG_OTPKEY field below.
+  </Overview>
+  <Category>Productivity: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:6080]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/mecharmor/free-games-claimer/main/unraid-templates/clewis-free-games-claimer.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/mecharmor/free-games-claimer/main/unraid-templates/icons/icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+
+  <!-- Shared email fallback (used when a store-specific email is empty) -->
+  <Config
+    Name="Email"
+    Target="EMAIL"
+    Default=""
+    Mode=""
+    Description="Optional. Shared email used as a fallback for any store below that has no store-specific email set."
+    Type="Variable"
+    Display="always"
+    Required="false"
+    Mask="false">
+  </Config>
+
+  <!-- Epic Games -->
+  <Config
+    Name="Epic Email"
+    Target="EG_EMAIL"
+    Default=""
+    Mode=""
+    Description="Epic Games Store login email. Leave empty to skip Epic (Epic is also skipped entirely if no email is set)."
+    Type="Variable"
+    Display="always"
+    Required="false"
+    Mask="false">
+  </Config>
+  <Config
+    Name="Epic Password"
+    Target="EG_PASSWORD"
+    Default=""
+    Mode=""
+    Description="Epic Games Store password."
+    Type="Variable"
+    Display="always"
+    Required="false"
+    Mask="true">
+  </Config>
+  <Config
+    Name="Epic TOTP Secret"
+    Target="EG_OTPKEY"
+    Default=""
+    Mode=""
+    Description="Optional. TOTP secret for Epic 2FA. In your Epic account settings, choose 'Enable Authenticator App' and paste the secret shown there (the QR code contains it). The claimer then generates 2FA codes automatically."
+    Type="Variable"
+    Display="always"
+    Required="false"
+    Mask="true">
+  </Config>
+
+  <!-- Prime Gaming (Amazon Luna) -->
+  <Config
+    Name="Prime Gaming Email"
+    Target="PG_EMAIL"
+    Default=""
+    Mode=""
+    Description="Amazon account email for Prime Gaming (Luna) claims."
+    Type="Variable"
+    Display="always"
+    Required="false"
+    Mask="false">
+  </Config>
+  <Config
+    Name="Prime Gaming Password"
+    Target="PG_PASSWORD"
+    Default=""
+    Mode=""
+    Description="Amazon account password for Prime Gaming (Luna) claims."
+    Type="Variable"
+    Display="always"
+    Required="false"
+    Mask="true">
+  </Config>
+  <Config
+    Name="Prime Gaming TOTP Secret"
+    Target="PG_OTPKEY"
+    Default=""
+    Mode=""
+    Description="Optional. TOTP secret for Amazon 2FA, from your Amazon account's authenticator app setup."
+    Type="Variable"
+    Display="always"
+    Required="false"
+    Mask="true">
+  </Config>
+
+  <!-- GOG -->
+  <Config
+    Name="GOG Email"
+    Target="GOG_EMAIL"
+    Default=""
+    Mode=""
+    Description="GOG.com login email."
+    Type="Variable"
+    Display="always"
+    Required="false"
+    Mask="false">
+  </Config>
+  <Config
+    Name="GOG Password"
+    Target="GOG_PASSWORD"
+    Default=""
+    Mode=""
+    Description="GOG.com password."
+    Type="Variable"
+    Display="always"
+    Required="false"
+    Mask="true">
+  </Config>
+
+  <!-- Notifications (optional, apprise format) -->
+  <Config
+    Name="Notify URL"
+    Target="NOTIFY"
+    Default=""
+    Mode=""
+    Description="Optional. Apprise notification URL for claim results, e.g. discord://webhook_id/webhook_token for Discord. See https://github.com/caronc/apprise for all supported services."
+    Type="Variable"
+    Display="always"
+    Required="false"
+    Mask="false">
+  </Config>
+
+  <!-- Data persistence (browser sessions, screenshots, claim DB) -->
+  <Config
+    Name="Appdata"
+    Target="/fgc/data"
+    Default="/mnt/user/appdata/clewis-free-games-claimer"
+    Mode="rw"
+    Description="Persistent storage for browser sessions, screenshots and claim history. Keep this mapped or you will have to log in again on every run."
+    Type="Path"
+    Display="always"
+    Required="true"
+    Mask="false">
+  </Config>
+
+  <!-- noVNC web UI for manual logins -->
+  <Config
+    Name="noVNC Port"
+    Target="6080"
+    Default="6080"
+    Mode="tcp"
+    Description="noVNC browser-based VNC client — open the container's WebUI to log in manually when a session expires."
+    Type="Port"
+    Display="always"
+    Required="false"
+    Mask="false">
+  </Config>
+
+</Container>
